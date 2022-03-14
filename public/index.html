@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <title>Mural</title>
+  </head>
+
+  <body>
+    <head>
+      <div class="container">
+        <h3>Novo Post</h3>
+        <div>
+          <input id="title" type="text" placeholder="Titulo" />
+          <input
+            type="textarea"
+            class="form-control my-4"
+            rows="3"
+            id="description"
+            type="text"
+            placeholder="Descrição"
+          />
+          <button class="btn btn-success" onclick="newPost()">Salvar</button>
+        </div>
+        <h2 class="mt-4">Mural de Avisos</h2>
+
+        <id id="posts"> </id>
+      </div>
+
+      <script src="./scripts/script.js"></script>
+    </head>
+  </body>
+</html>
